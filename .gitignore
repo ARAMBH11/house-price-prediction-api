@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Data files
+*.xlsx
+*.csv
+
+# Trained models
+models/*.joblib
