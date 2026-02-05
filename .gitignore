@@ -6,6 +6,3 @@ __pycache__/
 # Data files
 *.xlsx
 *.csv
-
-# Trained models
-models/*.joblib
