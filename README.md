@@ -57,3 +57,29 @@ The API accepts the following inputs:
   "sold_year": 2024,
   "sold_month": 6
 }
+
+## 📂 **Project Structure**
+
+🏠 house-price-prediction-api/
+│
+├── 📁 api/
+│ └── 🚀 main.py # FastAPI application (API entry point)
+│
+├── 📁 models/
+│ └── 🤖 house_price_model.joblib # Trained ML model
+│
+├── 📄 data_loading.py # Data loading utilities
+├── 📊 eda.py # Exploratory Data Analysis
+├── 🧹 preprocessing.py # Feature engineering & preprocessing
+├── 🏋️ training.py # Model training & selection
+├── 📈 evaluation.py # Model evaluation metrics
+├── 🔮 inference.py # Prediction logic
+│
+├── 📒 House_Price_Notebook.ipynb # Complete EDA & experimentation notebook
+├── 📦 requirements.txt # Project dependencies
+├── 🚫 .gitignore # Ignored files & folders
+└── 📘 README.md # Project documentation
+
+
+
+
